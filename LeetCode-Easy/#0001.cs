@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.Intrinsics.X86;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
+﻿
 namespace LeetCode_Easy
 {
     //    1. Two Sum
@@ -14,7 +6,7 @@ namespace LeetCode_Easy
     //You may assume that each input would have exactly one solution, and you may not use the same element twice.
     //You can return the answer in any order.
 
-    public class _1
+    public class _0001
     {
         //my solution
         public int[] TwoSum(int[] nums, int target)
@@ -57,7 +49,7 @@ namespace LeetCode_Easy
         public void test()
         {
             Console.WriteLine("Hello, World!");
-            var sol = new _1();
+            var sol = new _0001();
             var list1 = new int[] { 2, 7, 11, 15 };
             var target1 = 9;
             var list2 = new int[] { 3, 2, 4 };

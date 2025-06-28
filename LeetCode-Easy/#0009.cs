@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
+﻿
 namespace LeetCode_Easy
 {
-    public class _9
+    public class _0009
     {
 
         //    9. Palindrome Number
@@ -29,7 +23,7 @@ namespace LeetCode_Easy
                 {
                     if (numInStr[i] != numInStr[numLen - i - 1])
                     {
-                        // Console.WriteLine($"{x} is false");
+                        //Console.WriteLine($"{x} is false");
                         return false;
                     }
                 }
@@ -41,7 +35,7 @@ namespace LeetCode_Easy
                 {
                     if (numInStr[i] != numInStr[numLen - i - 1])
                     {
-                        // Console.WriteLine($"{x} is false");
+                        //Console.WriteLine($"{x} is false");
                         return false;
                     }
                 }
@@ -52,7 +46,6 @@ namespace LeetCode_Easy
 
         public void test()
         {
-            Console.WriteLine("Hello, World!");
             IsPalindrome(121);
             IsPalindrome(-121);
             IsPalindrome(10);
